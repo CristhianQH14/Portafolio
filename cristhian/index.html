@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Mi Portafolio</h1>
+        <nav>
+            <ul>
+                <li><a href="acerca de">Acerca de mi</a></li>
+                <li><a href="proyectos">Proyectos</a></li>
+                <li><a href="habilidades">Habilidades</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="acerca de">
+        <h2>Sobre Mí</h2>
+        <img src="imagenes/aulas.jpg" alt="VALLE GRANDE">
+        <p>Soy un estudiante de Valle Grande que esta llevando la carrera de analisis 
+            de sistemas, estoy en el segundo ciclo, me gusta programar y desarrollar paginas web.</p>
+    </section>
+
+    <!-- Sección Proyectos -->
+    <section id="projectos">
+        <h2>Proyectos</h2>
+        <div class="projecto-lista">
+            <div class="projecto">
+                <img src="imagenes/pagina web.PNG" alt="Proyecto 1">
+                <h3>Proyecto 1</h3>
+                <p>El proyecto Hambre Cero busca erradicar el hambre y promover la seguridad alimentaria en 
+                    comunidades vulnerables, alineándose con el ODS 2 de la ONU. La página web ofrece 
+                    información sobre programas de alimentación sostenible, iniciativas de agricultura 
+                    local, y proyectos educativos para mejorar la nutrición. A través de historias 
+                    de impacto y resultados cuantificables, la plataforma muestra el avance hacia el objetivo
+                    de erradicar el hambre y mejorar la calidad de vida en las comunidades participantes. Los 
+                    visitantes pueden explorar oportunidades de voluntariado y donaciones para contribuir a la causa..</p>
+                <a href="#">Ver más</a>
+            </div>
+         
+        </div>
+    </section>
+
+    <!-- Sección Habilidades -->
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <div class="habilidades-lista">
+            <div class="habilidad">
+                <img src="imagenes/html.png" alt="HTML">
+                <p>HTML</p>
+            </div>
+            <div class="habilidad">
+                <img src="imagenes/css.jpg" alt="CSS">
+                <p>CSS</p>
+            </div>
+            <div class="habilidad">
+                <img src="imagenes/js.png" alt="JavaScript">
+                <p>JavaScript</p>
+            </div>
+            <div class="habilidad">
+                <img src="imagenes/python.png" alt="Python">
+                <p>Python</p>
+            </div>
+            <div class="habilidad">
+                <img src="imagenes/c++.png" alt="C++">
+                <p>C++</p>
+            </div>
+            
+        </div>
+    </section>
+    
+    <!-- Sección Contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Puedes contactarme a través del siguiente formulario:</p>
+        <form action="mailto:cristhian.quispe.h@vallegrande.edu.pe" method="post" enctype="text/plain">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required placeholder="Ingresa tu nombre">
+    
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required placeholder="Ingresa tu correo electrónico">
+    
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required placeholder="Escribe tu mensaje"></textarea>
+    
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Mi portafolio. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
