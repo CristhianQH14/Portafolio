@@ -1,165 +1,163 @@
-/* Estilos del Encabezado */
 header {
-    background-color: #333; /* Color de fondo del encabezado */
-    color: #fff; /* Color del texto en el encabezado */
-    padding: 1.5rem 0; /* Espaciado interior en la parte superior e inferior */
-    text-align: center; /* Centrado del contenido */
+    background-color: #333; 
+    color: #fff; 
+    padding: 1.5rem 0; 
+    text-align: center; 
 }
 
 header h1 {
-    font-size: 2rem; /* Tamaño de la fuente del título */
-    margin-bottom: 0.5rem; /* Espacio debajo del título */
-    color: #ffffff; /* Color del título */
+    font-size: 2rem; 
+    margin-bottom: 0.5rem; 
+    color: #ffffff;
 }
 
-/* Estilos del Menú de Navegación */
+
 header nav ul {
-    list-style-type: none; /* Elimina los puntos de la lista */
-    display: flex; /* Usa flexbox para alinear horizontalmente los enlaces */
-    justify-content: center; /* Centra los enlaces dentro del encabezado */
-    gap: 2rem; /* Espaciado entre enlaces */
+    list-style-type: none; 
+    display: flex; 
+    justify-content:center; 
+    gap: 2rem; 
     padding: 0;
 }
 
 header nav a {
-    color: #ffffff; /* Color de los enlaces */
-    text-decoration: none; /* Quita el subrayado de los enlaces */
-    font-size: 1.1rem; /* Tamaño de la fuente de los enlaces */
-    transition: color 0.3s; /* Transición para el efecto de hover */
+    color: #ffffff; 
+    text-decoration: none; 
+    font-size: 1.1rem; 
+    transition: color 0.3s; 
 }
 
 header nav a:hover {
-    color: #007acc; /* Color de los enlaces al pasar el cursor */
+    color: #007acc; 
 }
 
-/* Ajustes Responsivos */
 @media (max-width: 768px) {
     header nav ul {
-        flex-direction: column; /* Coloca los enlaces en una columna en pantallas pequeñas */
-        gap: 1rem; /* Ajusta el espaciado entre enlaces */
+        flex-direction: column; 
+        gap: 1rem; 
     }
 
     header h1 {
-        font-size: 1.8rem; /* Ajusta el tamaño del título en pantallas pequeñas */
+        font-size: 1.8rem; 
     }
 
     header nav a {
-        font-size: 1rem; /* Ajusta el tamaño de los enlaces en pantallas pequeñas */
+        font-size: 1rem; /
     }
 }
 
-/* Estilos para la sección Sobre Mí */
+
 #acerca\ de {
-    background-color: #f9f9f9; /* Color de fondo suave */
-    padding: 2rem 1.5rem; /* Espaciado interno */
-    text-align: center; /* Centrado del contenido */
-    margin: 2rem 0; /* Espacio exterior para separar secciones */
-    border-radius: 8px; /* Bordes redondeados */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    background-color: #f9f9f9; 
+    padding: 2rem 1.5rem; 
+    text-align: center; 
+    margin: 2rem 0; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 #acerca\ de h2 {
-    font-size: 2rem; /* Tamaño de fuente del título */
-    color: #333; /* Color del título */
-    margin-bottom: 1rem; /* Espacio debajo del título */
+    font-size: 2rem; 
+    color: #333; 
+    margin-bottom: 1rem; 
 }
 
 #acerca\ de p {
-    font-size: 1.1rem; /* Tamaño de fuente del párrafo */
-    color: #555; /* Color del texto del párrafo */
-    line-height: 1.6; /* Altura de línea para mejorar la legibilidad */
-    max-width: 700px; /* Ancho máximo del texto */
-    margin: 0 auto; /* Centrado horizontal del texto */
+    font-size: 1.1rem; 
+    color: #555; 
+    line-height: 1.6; 
+    max-width: 700px; 
+    margin: 0 auto; 
 }
 
-/* Estilos para la sección Proyectos */
+
 #projectos {
-    background-color: #f4f4f4; /* Fondo ligero */
-    padding: 2rem 1.5rem; /* Espaciado interno */
-    text-align: center; /* Centrado del contenido */
+    background-color: #f4f4f4; 
+    padding: 2rem 1.5rem; 
+    text-align: center; 
 }
 
 #projectos h2 {
-    font-size: 2rem; /* Tamaño de la fuente del título */
-    color: #333; /* Color del título */
-    margin-bottom: 1.5rem; /* Espacio debajo del título */
+    font-size: 2rem; 
+    color: #333; 
+    margin-bottom: 1.5rem;
 }
 
-/* Lista de proyectos */
+
 .projecto-lista {
     display: flex;
-    flex-wrap: wrap; /* Permite que los proyectos se ajusten en múltiples filas */
-    gap: 1.5rem; /* Espaciado entre proyectos */
-    justify-content: center; /* Centrado horizontal */
+    flex-wrap: wrap; 
+    gap: 1.5rem; 
+    justify-content: center; /
 }
 
-/* Estilos para cada proyecto individual */
+
 .projecto {
-    background-color: #fff; /* Fondo blanco para cada proyecto */
+    background-color: #fff; 
     width: 100%;
-    max-width: 300px; /* Ancho máximo de cada tarjeta de proyecto */
-    padding: 1.5rem; /* Espaciado interno */
-    border-radius: 8px; /* Bordes redondeados */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar efecto de profundidad */
-    text-align: left; /* Alineación del texto */
-    transition: transform 0.3s, box-shadow 0.3s; /* Transición para efectos de hover */
+    max-width: 300px; 
+    padding: 1.5rem; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    text-align: left; 
+    transition: transform 0.3s, box-shadow 0.3s; 
 }
 
 .projecto:hover {
-    transform: translateY(-5px); /* Mueve el proyecto ligeramente hacia arriba al pasar el cursor */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Aumenta la sombra en hover */
+    transform: translateY(-5px); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
 }
 
 .projecto img {
-    width: 100%; /* Imagen al 100% del ancho de la tarjeta */
-    height: auto; /* Mantiene la proporción de la imagen */
-    border-radius: 5px; /* Bordes redondeados de la imagen */
-    margin-bottom: 1rem; /* Espacio debajo de la imagen */
+    width: 100%; 
+    height: auto; 
+    border-radius: 5px; 
+    margin-bottom: 1rem; /
 }
 
 .projecto h3 {
-    font-size: 1.4rem; /* Tamaño de la fuente del título del proyecto */
-    color: #333; /* Color del título del proyecto */
-    margin-bottom: 0.5rem; /* Espacio debajo del título */
+    font-size: 1.4rem; 
+    color: #333; 
+    margin-bottom: 0.5rem; 
 }
 
 .projecto p {
-    font-size: 1rem; /* Tamaño de la fuente del párrafo */
-    color: #555; /* Color del texto */
-    line-height: 1.5; /* Altura de línea para mejorar legibilidad */
-    margin-bottom: 1rem; /* Espacio debajo del párrafo */
+    font-size: 1rem; 
+    color: #555; 
+    line-height: 1.5; 
+    margin-bottom: 1rem; 
 }
 
 .projecto a {
-    display: inline-block; /* Hace que el enlace sea un bloque en línea */
-    color: #007acc; /* Color del enlace */
-    text-decoration: none; /* Quita el subrayado del enlace */
+    display: inline-block; 
+    color: #007acc; 
+    text-decoration: none; 
     font-weight: bold;
-    transition: color 0.3s; /* Transición de color en hover */
+    transition: color 0.3s; 
 }
 
 .projecto a:hover {
-    color: #005f99; /* Color del enlace al pasar el cursor */
+    color: #005f99;
 }
 
-/* Ajustes responsivos */
+
 @media (max-width: 768px) {
     .projecto-lista {
-        flex-direction: column; /* Coloca los proyectos en una columna en pantallas pequeñas */
-        gap: 1rem; /* Ajusta el espacio entre proyectos */
+        flex-direction: column; 
+        gap: 1rem; 
     }
 
     .projecto {
-        max-width: 100%; /* El ancho del proyecto se ajusta a la pantalla */
+        max-width: 50%; 
     }
 }
 
-/* Estilos para la sección de Habilidades */
+
 #habilidades {
-    padding: 2rem 1.5rem; /* Espaciado interno */
-    text-align: center; /* Centrado del contenido */
-    background-color: #f9f9f9; /* Color de fondo claro */
-    margin: 2rem 0; /* Margen para separar la sección */
+    padding: 2rem 1.5rem; 
+    text-align: center; 
+    background-color: #f9f9f9; 
+    margin: 2rem 0; 
 }
 
 #habilidades h2 {
@@ -168,57 +166,57 @@ header nav a:hover {
     margin-bottom: 1.5rem;
 }
 
-/* Estilos para la lista de habilidades */
+
 .habilidades-lista {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap; /* Permite que las habilidades se ajusten en múltiples filas */
-    gap: 1.5rem; /* Espacio entre habilidades */
+    flex-wrap: wrap; 
+    gap: 1.5rem; 
 }
 
-/* Estilos individuales para cada habilidad */
+
 .habilidad {
     display: flex;
-    flex-direction: column; /* Coloca la imagen encima del nombre */
-    align-items: center; /* Centra el contenido */
-    background-color: #fff; /* Fondo blanco para cada tarjeta */
-    padding: 1rem; /* Espaciado interno */
-    border-radius: 8px; /* Bordes redondeados */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar efecto de profundidad */
-    width: 120px; /* Ancho de cada tarjeta */
+    flex-direction: column; 
+    align-items: center; 
+    background-color: #fff; 
+    padding: 1rem; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    width: 120px; 
     text-align: center;
-    transition: transform 0.3s; /* Transición para efecto en hover */
+    transition: transform 0.3s; /
 }
 
 .habilidad:hover {
-    transform: translateY(-5px); /* Eleva la tarjeta al pasar el cursor */
+    transform: translateY(-5px); 
 }
 
 .habilidad img {
-    width: 60px; /* Tamaño de la imagen */
+    width: 60px;
     height: 60px;
     margin-bottom: 0.5rem;
-    border-radius: 50%; /* Imagen redondeada */
+    border-radius: 50%; 
 }
 
 .habilidad p {
     font-size: 1rem;
-    color: #007acc; /* Color del nombre de la habilidad */
+    color: #007acc; 
     margin-top: 0.5rem;
 }
 
-/* Ajustes responsivos */
+
 @media (max-width: 768px) {
     .habilidades-lista {
-        gap: 1rem; /* Ajusta el espacio entre habilidades en pantallas pequeñas */
+        gap: 1rem; /
     }
 
     .habilidad {
-        width: 100px; /* Ajusta el ancho de cada tarjeta en pantallas pequeñas */
+        width: 100px; 
     }
 }
 
-/* Estilos para la sección de Contacto */
+
 #contacto {
     padding: 2rem 1.5rem;
     background-color: #f4f4f4;
@@ -240,12 +238,11 @@ header nav a:hover {
     margin-bottom: 1rem;
 }
 
-/* Estilos para el formulario */
 form {
     display: grid;
-    gap: 1rem; /* Espaciado entre los campos */
-    max-width: 500px; /* Limita el ancho del formulario */
-    margin: 0 auto; /* Centra el formulario */
+    gap: 1rem; 
+    max-width: 500px; 
+    margin: 0 auto; 
     text-align: left;
 }
 
@@ -264,8 +261,8 @@ form input, form textarea {
 }
 
 form textarea {
-    height: 150px; /* Altura del área de texto */
-    resize: vertical; /* Permite que el área de texto se ajuste verticalmente */
+    height: 150px;
+    resize: vertical; 
 }
 
 form button {
@@ -283,16 +280,16 @@ form button:hover {
 }
 
 
-/* Estilos para el footer */
 footer {
-    background-color: #333; /* Fondo oscuro */
-    color: #fff; /* Color del texto */
-    text-align: center; /* Centrado del contenido */
-    padding: 1rem; /* Espaciado interno */
-    font-size: 0.9rem; /* Tamaño de la fuente */
-    margin-top: 2rem; /* Margen superior */
+    background-color: #333; 
+    color: #fff; 
+    text-align: center; 
+    padding: 1rem; 
+    font-size: 0.9rem; 
+    margin-top: 2rem; 
 }
 
 footer p {
-    margin: 0; /* Elimina margen del párrafo en el footer */
+    margin: 0; 
 }
+
